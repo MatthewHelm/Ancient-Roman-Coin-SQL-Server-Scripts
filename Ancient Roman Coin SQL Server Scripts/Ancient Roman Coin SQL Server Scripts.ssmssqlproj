@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Ancient Roman Coin SQL Server Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="BCSWS7:BCSWS7\Matth">
+          <Created>2018-01-22T17:32:42.5344894-05:00</Created>
+          <Type>SQL</Type>
+          <Server>BCSWS7</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="create_coin_type_tbl v3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BCSWS7:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BCSWS7</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>create_coin_type_tbl v3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_coins_tbl_v3.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_coins_tbl_v3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_coins_tbl_v3_saved.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_coins_tbl_v3_saved.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_collection_tbl.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_collection_tbl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_dealer_tbl.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_dealer_tbl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_grade_tbl_v2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_grade_tbl_v2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_issuing_authority_title_tbl.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_issuing_authority_title_tbl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_issuingAuthority_tbl_v2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_issuingAuthority_tbl_v2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_material_tbl_v3.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_material_tbl_v3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_mint_tbl.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_mint_tbl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_obverse_tbl_v2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_obverse_tbl_v2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_period_tbl.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_period_tbl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_physical_attributes_tbl.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_physical_attributes_tbl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_reverse_tbl.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_reverse_tbl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_ric_volume_tbl.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_ric_volume_tbl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_ricIndex_tbl.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_ricIndex_tbl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_ricSection_tbl.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_ricSection_tbl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create_set_tbl.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create_set_tbl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetAllCoinLabels_SP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BCSWS7:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BCSWS7</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GetAllCoinLabels_SP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetAllCoins_SP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>GetAllCoins_SP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetAllCoinsGivenPeriod_SP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>GetAllCoinsGivenPeriod_SP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetCoin_SP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>GetCoin_SP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetRicIndex_SP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>GetRicIndex_SP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetRicIndexByCoinId_SP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>GetRicIndexByCoinId_SP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetRicIndexByRicIndexId_SP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>GetRicIndexByRicIndexId_SP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertCoin_SP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>InsertCoin_SP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UpdateCoin_SP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>UpdateCoin_SP.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
